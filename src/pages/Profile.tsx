@@ -55,8 +55,8 @@ export const ProfilePage: React.FC<{}> = ({}) => {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="border-b border-black">
-        <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 flex-wrap gap-2">
+        <div className="max-w-full mx-auto  px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-start sm:flex-row  sm:items-center sm:justify-between py-4 sm:flex-wrap gap-2">
             <button
               onClick={() => navigate("/")}
               className="cursor-pointer flex items-center space-x-2 px-3 py-2 sm:px-4 bg-[#A0F075] text-black border-2 border-black transition-colors shadow-[4px_4px_0_0_#000] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none text-sm sm:text-base"
