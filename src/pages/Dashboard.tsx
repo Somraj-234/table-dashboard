@@ -253,7 +253,7 @@ export const DashboardPage: React.FC<{}> = () => {
 
         {/* table */}
         {loading && (
-          <div className="absolute bg-gray-100/50 flex flex-col items-center justify-center w-full h-screen">
+          <div className="absolute left-50 right-50  flex flex-col items-center justify-center h-screen">
             <Loader />
             <p className="mt-4 text-black">Loading comments...</p>
           </div>
