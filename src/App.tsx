@@ -1,15 +1,12 @@
 import "./App.css";
-import { DashboardPage } from "./pages/Dashboard";
-import { ProfilePage } from "./pages/Profile";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Routing from "./utils/Routing";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<DashboardPage />} />
-        <Route path="profile" element={<ProfilePage />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Routing />
+      <Analytics />
+    </div>
   );
 }
 
